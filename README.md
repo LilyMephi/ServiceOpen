@@ -5,36 +5,28 @@
 ## Установка
 
 1. Клонируйте репозиторий или скачайте исходный код библиотеки:
-
-   ```bash
+```bash
    git clone https://github.com/LilyMephi/ServiceOpen.git
    cd ServiceOpen
-   ```
-   
-
-2. Создайте проект с помощью `qmake`:
-
-  ```bush
+```
+3. Создайте проект с помощью `qmake`:
+```bush
    qmake ServiceOpen.pro
-   ```
-
+```
 3. Соберите библиотеку:
-
-  ```bash
+```bash
    make
-   ```
-   
-
+```
 4. Перед запуском приложения, экспортируйте переменную окружения `LD_LIBRARY_PATH`, указывая путь к вашей библиотеке:
 
-   ```bash
+```bash
    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/lib/ServiceOpen
-   ```
+```
 5. В папке `example` пример использования данной библиотеки
-   ```bash
-     qmake example.pro
-     make
-    ./ServiceOpen /path/to/file
-   ```
-   Также в файле `example.pro` нужно изменить путь до библиотеки
+```bash
+   qmake example.pro
+   make
+   ./ServiceOpen /path/to/file
+```
+Также в файле `example.pro` нужно изменить путь до библиотеки
    
