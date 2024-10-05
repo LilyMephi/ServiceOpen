@@ -36,4 +36,5 @@
      make
     ./ServiceOpen /path/to/file
    ```
+   Также в файле `example.pro` нужно изменить путь до библиотеки
    
