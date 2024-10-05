@@ -7,5 +7,5 @@ TARGET = ServerOpen
 TEMPLATE = app
 SOURCES += main.cpp
 
-LIBS += -L/home/lilycherly/Work/serviceOpen -lServiceOpen 
-INCLUDEPATH += /home/lilycherly/Work/serviceOpen
+LIBS += -L/path/to/lib/ServiceOpen -lServiceOpen 
+INCLUDEPATH += /path/to/lib/ServiceOpen
